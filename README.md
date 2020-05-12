@@ -14,4 +14,4 @@ composer install
 
 http://APP_NAME.herokuapp.com
 
-Prova travis-ci heroku
+Prova travis-ci heroku perquè s'execute Travis-CI o després CD en Heroku
