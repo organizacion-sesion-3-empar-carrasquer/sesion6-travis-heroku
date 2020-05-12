@@ -19,7 +19,7 @@
                     "href" : "{{ path_for('seriestv') }}/{{ item.id }}",
                         "data" : [
                             {"name" : "name", "value" : "{{ item.name }}", "prompt" : "Nombre del Juego"},
-                            {"name" : "description", "value" : "{{ item.description }}", "prompt" : "Descripción del Juego"},
+                            {"name" : "description", "value" : "{{ item.description }}", "prompt" : "Descripción de la serie"},
                             {"name" : "channel", "value" : "{{ item.channel }}", "prompt" : "Canal"},                         
                             {"name" : "datePublished", "value" : "{{ item.datePublished }}", "prompt" : "Fecha de lanzamiento"}
                         ]

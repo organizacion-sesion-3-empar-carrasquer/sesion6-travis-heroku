@@ -107,10 +107,10 @@ INSERT INTO `videogames` (`name`, `description`, `gamePlatform`, `applicationSub
 ('League of Legends', 'League of Legends, también conocido por sus siglas LoL, es un videojuego de género multiplayer online battle arena (MOBA). El juego está inspirado en el popular mapa personalizado del Warcraft III, Defense of the Ancients: Allstars (abreviado normalmente con las siglas DotA) diseñado por Steve «Guinsoo» Feak y Steve «Pendragon» Mescon.', 'PC', 'Campo De Batalla Multijugador En Línea', 'http://www.funandseriousgamefestival.com/imagenes/league-of-legends-g.jpg', 'https://www.youtube.com/embed/ZqilPmPw2yc', '2009-10-27');
 
 --
--- Estructura de tabla para la tabla `seriestv`
+-- Estructura de tabla para la tabla `seriestvs`
 --
 
-CREATE TABLE IF NOT EXISTS `seriestv` (
+CREATE TABLE IF NOT EXISTS `seriestvs` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` TEXT COLLATE utf8_spanish_ci NOT NULL,
   `description` TEXT COLLATE utf8_spanish_ci NOT NULL,
@@ -122,7 +122,7 @@ CREATE TABLE IF NOT EXISTS `seriestv` (
 --
 -- Bolcat de dades per a la taula `seriestv`
 -- 
-INSERT INTO `seriestv` (`name`, `description`, `channel`, `datePublished`) VALUES
+INSERT INTO `seriestvs` (`name`, `description`, `channel`, `datePublished`) VALUES
 ('Outlander', 'Basada en la saga de novelas de Diana Gabaldon, Outlander es una serie que mezcla fantasía, historia y romance en los parajes de la Escocia del siglo XVIII.Durante la Segunda Guerra Mundial, Claire..', 'Movistar+', '2014-11-01'),
 ('The Good Doctor', 'The Good Doctor se centra en un joven y brillante cirujano que padece el síndrome de Savant. Poco se sabe de este "síndrome del sabio" además de que aquellos que lo sufren tienen una memoria ...', 'ABC', '2017-01-15'),
 ('La Casa de Papel', 'La Casa de Papel narra lo que se espera que sea el atraco perfecto al Museo de la Fábrica Nacional de Moneda y Timbre. La mente que idea este plan es El Profesor, un hombre que recluta a siete ...', 'NETFLIX', '2017-07-02');
