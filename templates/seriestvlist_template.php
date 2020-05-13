@@ -3,7 +3,7 @@
         "title" : "Series TV Database",
             "type" : "Seriestv",
             "version" : "1.0",
-            "href" : "{{ path_for('games')}}",
+            "href" : "{{ path_for('seriestv')}}",
 
             "links" : [
                 {"rel" : "profile" , "href" : "http://schema.org/seriestv","prompt":"Perfil"},
